@@ -54,13 +54,11 @@ To merge specific files, use the following command structure:
 
 The merged output follows this structure:
 
-`
-01-filename1
+`01-filename1
 [Content of file 1]
 
 02-filename2
 [Content of file 2]
-
 ...
 `
 

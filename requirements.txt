@@ -1,0 +1,14 @@
+python-pptx
+chardet
+PyPDF2
+python-docx
+openpyxl
+pyyaml
+pandas
+sqlparse
+pytesseract
+pillow
+opencv-python
+numpy
+yt-dlp
+pycuda

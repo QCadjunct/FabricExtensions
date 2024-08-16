@@ -32,35 +32,29 @@
 
 To merge specific files, use the following command structure:
 
-```
-python MergeFiles_converter.py <file1> <file2> ... [output_file]
-```
+`python MergeFiles_converter.py <file1> <file2> ... [output_file]`
 
-Example:
-```
-python MergeFiles_converter.py file1.pdf file2.docx file3.txt output.txt
-```
+#### Example 1
+
+`python MergeFiles_converter.py file1.pdf file2.docx file3.txt output.txt`
 
 ### Processing a Directory
 
-To process all files within a directory:
+- To process all files within a directory:
 
-```
-python MergeFiles_converter.py <input_directory> [output_file]
-```
+`python MergeFiles_converter.py <input_directory> [output_file]`
 
-Example:
-```
-python MergeFiles_converter.py /path/to/directory output.txt
-```
+#### Example 2
 
-Note: If you omit the output file, the merged content will be printed to the console.
+`python MergeFiles_converter.py /path/to/directory output.txt`
+
+- Note: If you omit the output file, the merged content will be printed to the console.
 
 ## Output Format
 
 The merged output follows this structure:
 
-```
+`
 01-filename1
 [Content of file 1]
 
@@ -68,7 +62,7 @@ The merged output follows this structure:
 [Content of file 2]
 
 ...
-```
+`
 
 ## Dependencies
 
@@ -78,6 +72,7 @@ The merged output follows this structure:
 ## Error Handling
 
 If an error occurs while processing a file, the script will:
+
 1. Print an error message to stderr
 2. Continue processing the remaining files
 3. Include successfully processed files in the final output
